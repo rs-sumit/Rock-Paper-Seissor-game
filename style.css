@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    border:border-box;
+
+}
+.child0{
+    height: 50px;
+    color:red;
+    display:flex;
+    justify-content: center;
+}
+.child1{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.child2{
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.child2 div{
+   
+
+    height:60px;
+    width:100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.child21{   
+    display: flex;
+}
+.child3{
+    
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.msgbox{
+   
+    /* position: relative;
+    right:30px; */
+    background-color: rgb(157, 127, 255);
+    /* color: white; */
+    font-size: 1.25rem;
+    height:35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    border:2px solid black; 
+
+}
+.uscr{
+    font-size: 1.5rem;
+   
+}
+.cscr {
+    font-size: 1.5rem;
+    
+}
+
+.btn{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 6px solid white;
+   
+    
+}
+.child1 div:hover{
+    border-color:red;
+    opacity: 70%;   
+}
+
+.first{
+    background-image:url("rock.png"); 
+}
+.second {
+    background-image: url("paper.png");
+}
+.third {
+    background-image: url("seissor.png");
+}
+.child4{
+    height: 260px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.c_show{
+    height: 200px;
+    width:200px;
+    background-color: green;
+    border-radius:50%;
+    /* border:6px solid rgb(44, 2, 2); */
+    background-image: url("seissor.png");
+    background-size: cover;
+    
+}
